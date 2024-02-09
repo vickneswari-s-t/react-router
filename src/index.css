@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+}
+
+.navBar{
+  
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid rgb(164, 161, 161);
+ 
+  
+}
+.items{
+  display: flex;
+  gap:25px ;
+   
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  gap:25px;
+}
+.options{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+ 
+  
+}
+.options:hover{
+  color: rgb(19, 204, 46);
+  border-bottom:3px solid rgb(19, 204, 46) ;
+  
+  
+}
+.card{
+  height: 500px;
+  margin-top: 15px;
+}
+.Read{
+  text-decoration: none;
+  color: rgb(19, 204, 46);
+  
+}
+@media (max-width:770px) {
+  .options{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+   
+    
+  }
+  .col{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+@media (max-width:450px) {
+  .options{
+    font-size:x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+   
+    
+  }
+}
